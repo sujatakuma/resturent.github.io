@@ -1,0 +1,29 @@
+body{
+    background-image: url(samrat1-1585637610.jpg);
+    background-size: cover;
+}
+
+p{
+    font-style: italic;
+    text-align: center;
+    font-size: 5rem;
+    border: 10px solid rgb(206, 183, 206);
+}
+#grid-wrapper{
+    display: flex;
+    flex-direction: row;
+    /*grid-gap: 20px;
+    grid-template-columns: repeat( 10, auto );*/
+
+
+}
+.box img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box + hover{
+    padding: 20px;
+    margin: 5px;
+}
+
